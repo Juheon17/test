@@ -4,7 +4,7 @@ TARGET = market
 OBJECTS = market.c manager.o product.o
 
 $(TARGET):$(OBJECTS)
-	$(CC)$(CFLAG) -o $@ $^
+	$(CC) $(CFLAG) -o $@ $^
 
 clean:
 	rm *.o
